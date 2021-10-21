@@ -16,7 +16,13 @@ git clone git@github.com:lucastaroscky/blogs-api.git
 
 ## Configuring environment variables
 
-After 
+Open the folder on a text editor of your preference and create a new file called `.env` and inside of this file change the value of the variables according to your mysql workbench server data: 
+
+```bash
+MYSQL_USER=root // by default the service name is root when you create an instance of mysql workbench.
+MYSQL_PASSWORD=password //password that you create when started an instance.
+JWT_SECRET=secret // this secret is use to encrypt user data to create and validate the token/
+```
 
 ## Starting server
 
